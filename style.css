@@ -1,0 +1,23 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px;
+	padding: 10px;
+}
+
+.grid-item {
+	background-color: #e7c782;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(7, 7, 7, 0.226);
+	text-align: center;
+}
+
+.negrito {
+	font-weight: 600;
+}
+
+.letrinha {
+	font-size: small;
+	
+}
